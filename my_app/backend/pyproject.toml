@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "fast_api"
+name = "backend"
 version = "0.1.0"
 description = ""
 authors = ["Kyriakos Fragkeskos <kyriakos.frangeskos@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.59.0"
-uvicorn = "^0.11.6"
+fastapi = {extras = ["all"], version = "^0.60.1"}
+motor = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
