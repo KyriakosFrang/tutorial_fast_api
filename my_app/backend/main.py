@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from config import config
-from routes.core import core_router
+from config import config  # type: ignore
+from routes.core import core_router  # type:ignore
 
 api_path = f"/api/{config.API_VERSION}"
 
