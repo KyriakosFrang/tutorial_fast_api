@@ -15,5 +15,5 @@ databases:
     NAME: "my_app_db"
     USER: "my_app_user"
     PASSWORD: "4dm1n4dm1n"
-    HOST: "127.0.0.1"
+    HOST: "mongo"
     PORT: "27017"
