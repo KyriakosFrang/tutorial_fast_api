@@ -8,10 +8,10 @@ services:
     ports:
       - "8000:8000"
     depends_on:
-      - postgres
+      - postgresserver
 
   # postgres as a service
-  postgres:
+  postgresserver:
     image: postgres
     restart: unless-stopped
     environment:
